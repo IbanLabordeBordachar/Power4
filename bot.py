@@ -94,7 +94,7 @@ def minmax(board, depth, is_maximizing):
         return best_score
 
 
-def best_move(board, depth=5):
+def best_move(board, depth=4):
     """
     Retourne l'indice de la colonne pour le meilleur coup pour le bot ("R")
     """
